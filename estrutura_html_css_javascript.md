@@ -1,0 +1,94 @@
+# Estrutura HTML, CSS e JavaScript
+
+## index.html
+
+```html
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple News</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body> 
+    <h1>
+      A Conferência Anual de Desenvolvedores da <span>Apple</span> retorna na
+      semana de 8 de junho
+    </h1>
+    <h2>
+      Disponível online em todo o mundo, a Conferência apresentará os mais
+      recentes softwares e tecnologias da <span>Apple</span>.
+    </h2>
+    <hr>
+    <p>
+      CUPERTINO, CALIFÓRNIA A Apple anunciou hoje que realizará sua Conferência
+      Anual de Desenvolvedores online de 8 a 12 de
+      junho, reunindo desenvolvedores do mundo todo para uma semana de conexão,
+      descoberta e inovação. Além da experiência online, desenvolvedores e
+      estudantes também poderão participar pessoalmente da comemoração do evento
+      especial no Apple Park em 8 de junho.
+      <br/>
+      A Apple compartilhará mais informações sobre a conferência antes da WWDC
+      por meio do app Apple Developer, do site e do canal do YouTube.
+      <img src="./img/logo.webp" alt="Logo do Apple News" />
+      <hr>
+    </p>
+    <h4>Compartilhar o artigo</h4>
+    <ul>
+      <li>Shampoo</li>
+      <li>Condicionador</li>
+      <li>Sabonete</li>
+      <li>Hidratante</li>
+      <li>Perfume</li>
+    </ul>
+    <ol>
+      <li>McDonald's</li>
+      <li>Burger King</li>
+      <li>KFC</li>
+      <li>Subway</li>
+      <li>Taco Bell</li>
+    </ol>
+    <script src="./script.js"></script>
+  </body>
+</html>
+```
+
+## style.css
+
+```css
+body {
+  background-color: rgb(233, 229, 217);
+}
+
+h1 {
+  color: rgb(211, 126, 143);
+  font-size: 30px;
+}
+
+h2 {
+  color: rgb(138, 85, 95);
+  font-size: 25px;
+}
+
+body p {
+  color: rgb(204, 134, 84);
+  font-size: 20px;
+}
+
+span {
+  color: rgb(230, 143, 80);
+  font-size: 35px;
+}
+
+img {
+  width: 30%;
+}
+```
+
+## script.js
+
+```javascript
+let nome = prompt("Digite seu nome:");
+alert("Olá, " + nome + "! Bem-vindo ao nosso site.");
+```
