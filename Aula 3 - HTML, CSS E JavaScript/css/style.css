@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(233, 229, 217);
+}
+
+h1 {
+  color: rgb(211, 126, 143);
+  font-size: 30px;
+}
+
+h2 {
+  color: rgb(138, 85, 95);
+  font-size: 25px;
+}
+
+body p {
+  color: rgb(204, 134, 84);
+  font-size: 20px;
+}
+
+span {
+  color: rgb(230, 143, 80);
+  font-size: 35px;
+}
+
+img {
+  width: 30%;
+}
