@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+body header nav a {
+  color: rgb(0, 73, 128);
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+body header nav a:hover {
+  text-decoration: underline;
+  background-color: cadetblue;
+}
+
+#titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(104, 165, 198);
+}
+
+h2 {
+  color: rgb(146, 204, 255);
+}
+
+h3 {
+  margin-top: 32px;
+  color: rgb(146, 204, 255);
+}
+
+p {
+  color: rgb(0, 71, 87);
+}
+
+.fotos {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;x
+}
+
+.espaco {
+  margin: 2%; /* Aplica para Todos os Lados */
+}
+
+body footer a {
+  color: rgb(119, 137, 255);
+}
