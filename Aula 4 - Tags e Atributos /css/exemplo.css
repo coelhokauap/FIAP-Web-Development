@@ -1,0 +1,27 @@
+/* Objetos:
+
+tag      - Nome da Tag             - header
+.classe  - Valor do Atributo Class - .site
+#id      - Valor Único             - #principal
+
+objeto {
+    atributo: valor;
+    propriedade: valor;
+}  */
+
+p /* Todas as Tags P */ {
+  color: blue;
+  font-size: 12px;
+}
+
+.vermelho {
+  color: red;
+}
+
+.grande {
+  font-size: x-large;
+}
+
+#lista {
+  font-size: medium;
+}
