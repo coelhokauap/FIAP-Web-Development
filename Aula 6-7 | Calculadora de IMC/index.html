@@ -1,0 +1,35 @@
+<!-- O DOM (Document Object Model) é uma interface de programação que representa páginas HTML/XML como uma árvore de objetos, permitindo ao JavaScript acessar e manipular dinamicamente a estrutura, estilo e conteúdo.
+
+O Browser Object Model (BOM) é um conjunto de objetos fornecidos pelo navegador que permite ao JavaScript interagir com o ambiente além da página web. -->
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- <input class="formatado fonte" type="text" name="" id="txt_nome" />
+    <input class="formatado fonte" type="number" name="" id="txt_idade" />
+    <input type="button" value="Escreve" id="btn_alerta" />
+
+    <h1 id="titulo_nome"></h1>
+    <h1 id="titulo_idade"></h1> -->
+
+    <h1>Calcule o Seu IMC:</h1>
+
+    <label for="weight">Peso: </label>
+    <input type="number" name="" id="weight" />
+    <br />
+    <label for="height">Altura: </label>
+    <input type="number" name="" id="height" />
+    <br />
+    <input type="button" value="Calcular" id="btn_calcula" />
+
+    <h1 id="titulo_imc"></h1>
+    <h1 id="titulo_classificacao"></h1>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- 
+    method="get"  - url
+    method="post" - oculto
+    -->
+    <form action="#" method="post">
+      <label for="cor">Cor:</label>
+      <input type="color" name="" id="cor" />
+      <textarea name="txa_mensagem" id=""></textarea>
+      <select name="sel_estado" id="">
+        <option value="">Selecionar</option>
+        <optgroup label="Região Sul">
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="PR">Parana</option>
+        </optgroup>
+
+        <input type="radio" name="time" id="" />Grêmio
+        <input type="radio" name="time" id="" />Inter
+      </select>
+    </form>
+
+    <form action="./envia.php" method="post">
+      <label for="txtusuario">Usuário:</label>
+      <input
+        type="text"
+        name="usuario"
+        placeholder="Usuário..."
+        id="txtusuario"
+      />
+      <!-- 
+      <label for="id_input"
+      -->
+      <label for="txtsenha">Senha:</label>
+      <input
+        type="password"
+        name="senha"
+        placeholder="Senha..."
+        id="txtsenha"
+      />
+      <input type="submit" value="Logar" />
+    </form>
+
+    <hr />
+
+    <form action="#" method="post">
+      <ul>
+        <li type="none">
+          <label for="txtnome">Nome:</label>
+          <input type="text" name="nome" id="user_name" />
+        </li>
+        <li type="none">
+          <label for="useremail">E-Mail:</label>
+          <input type="email" name="email" id="user_email" />
+        </li>
+        <li type="none">
+          <label for="usertel">Telefone:</label>
+          <input type="tel" name="email" id="user_tel" />
+        </li>
+        <h2>Pedido</h2>
+        <ul>
+          <li type="none">
+            <label for="request_1"
+              ><img class="fotos" src="./img/hamburguer_1.png" alt=""
+            /></label>
+            <input type="checkbox" name="" id="request_1" />
+            <label for="amount_1">Quantidade:</label>
+            <input type="number" name="amount_1" id="amount_1" />
+            <br />
+            <label for="steak_1"> <- Mal Passado</label>
+            <input type="range" name="" id="steak_1" />
+            <label for="steak_1">Bem Passado -></label>
+            <select name="Pão" id="type">
+              <option value="">- Pão -</option>
+              <option value="Brioche">Brioche</option>
+              <option value="Australiano">Australiano</option>
+            </select>
+          </li>
+          <li type="none">
+            <label for="request_2"
+              ><img class="fotos" src="./img/hamburguer_2.png" alt=""
+            /></label>
+            <input type="checkbox" name="" id="request_2" />
+            <label for="amount_2">Quantidade:</label>
+            <input type="number" name="amount_2" id="amount_2" />
+            <br />
+            <label for="steak_2"> <- Mal Passado</label>
+            <input type="range" name="" id="steak_2" />
+            <label for="steak_2">Bem Passado -></label>
+            <select name="Pão" id="type">
+              <option value="">- Pão -</option>
+              <option value="Brioche">Brioche</option>
+              <option value="Australiano">Australiano</option>
+            </select>
+          </li>
+          <li type="none">
+            <label for="request_3"
+              ><img class="fotos" src="./img/hamburguer_3.png" alt=""
+            /></label>
+            <input type="checkbox" name="" id="request_3" />
+            <label for="amount_3">Quantidade:</label>
+            <input type="number" name="amount_3" id="amount_3" />
+            <br />
+            <label for="steak_3"> <- Mal Passado</label>
+            <input type="range" name="" id="steak_3" />
+            <label for="steak_3">Bem Passado -></label>
+            <select name="Pão" id="type">
+              <option value="">- Pão -</option>
+              <option value="Brioche">Brioche</option>
+              <option value="Australiano">Australiano</option>
+            </select>
+          </li>
+        </ul>
+        <li type="none">
+          <label for="request_4"
+            ><img class="fotos" src="./img/hamburguer_4.png" alt=""
+          /></label>
+          <input type="checkbox" name="" id="request_4" />
+          <label for="amount_4">Quantidade:</label>
+          <input type="number" name="amount_4" id="amount_4" />
+          <br />
+          <label for="steak_4"> <- Mal Passado</label>
+          <input type="range" name="" id="steak_4" />
+          <label for="steak_4">Bem Passado -></label>
+          <select name="Pão" id="type">
+            <option value="">- Pão -</option>
+            <option value="Brioche">Brioche</option>
+            <option value="Australiano">Australiano</option>
+          </select>
+        </li>
+        <input type="submit" value="Enviar" />
+      </ul>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>

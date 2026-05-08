@@ -45,3 +45,7 @@ p {
 body footer a {
   color: rgb(119, 137, 255);
 }
+
+li {
+  margin-bottom: 10px;
+}
