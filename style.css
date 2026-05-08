@@ -25,7 +25,7 @@ p {
 h1 {
   margin-top: 0;
   margin-bottom: 8px;
-  color: #111;
+  color: #ed145b;
 }
 
 h3 {
@@ -62,5 +62,5 @@ a:hover {
 }
 
 #cp:hover {
-  background-color: #ff568e;
+  background-color: #da4c7b;
 }
