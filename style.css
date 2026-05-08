@@ -56,3 +56,11 @@ a {
 a:hover {
   background-color: #444;
 }
+
+#cp {
+  background-color: #ed145b;
+}
+
+#cp:hover {
+  background-color: #ff568e;
+}
