@@ -1,9 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 72px 24px;
+  background:
+    radial-gradient(circle at 20% 20%, #ffffff 0, transparent 28%),
+    radial-gradient(circle at 80% 10%, #ffe0e0 0, transparent 30%),
+    linear-gradient(135deg, #fff1f1, #f8f8fb 48%, #ffe9e9);
+  color: #1d1d1f;
+  font-family:
+    "SF Pro Text",
+    "SF Pro Display",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  text-align: left;
+}
+
+button {
+  display: block;
+  margin-block: 12px;
+  padding: 16px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 24px;
+  background: rgba(240, 128, 128, 0.82);
+  color: #ffffff;
+  font-size: 17px;
+  text-decoration: none;
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.75),
+    0 14px 30px rgba(29, 29, 31, 0.08);
+  backdrop-filter: blur(18px);
+}
+
+button:hover {
+  background: rgba(240, 128, 128, 0.92);
+}
+
 .bolinha {
   background-color: #f08080;
   width: 25px;
   height: 25px;
   display: block;
   float: left;
+  border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 50%;
   margin: 5px;
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.75),
+    0 14px 30px rgba(29, 29, 31, 0.08);
+  backdrop-filter: blur(18px);
 }

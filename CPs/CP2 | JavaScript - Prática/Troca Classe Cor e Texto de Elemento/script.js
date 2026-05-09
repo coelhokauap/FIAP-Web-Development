@@ -11,6 +11,9 @@ btn_troca_cor.addEventListener("click", () => {
   if (caixa_texto.className === "coral") {
     caixa_texto.classList.add("roxo");
     caixa_texto.classList.remove("coral");
+  } else {
+    caixa_texto.classList.add("coral");
+    caixa_texto.classList.remove("roxo");
   }
 
   // Exibe no Console
