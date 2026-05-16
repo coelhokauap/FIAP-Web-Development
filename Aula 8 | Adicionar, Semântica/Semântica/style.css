@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 72px 24px;
+  background:
+    radial-gradient(circle at 20% 20%, #ffffff 0, transparent 28%),
+    radial-gradient(circle at 80% 10%, #ffe0e0 0, transparent 30%),
+    linear-gradient(135deg, #fff1f1, #f8f8fb 48%, #ffe9e9);
+  color: #1d1d1f;
+  font-family:
+    "SF Pro Text",
+    "SF Pro Display",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  text-align: left;
+}
+
+header {
+  background-color: #f08080;
+  width: 100%;
+  height: 200px;
+  display: block;
+  float: left;
+}
+
+main {
+  background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+  display: block;
+  float: left;
+}
+
+footer {
+  background-color: #6e6e73;
+  width: 1000%;
+  height: 200px;
+  display: block;
+  float: left;
+}
