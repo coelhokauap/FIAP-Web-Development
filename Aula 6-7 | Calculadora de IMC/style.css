@@ -1,24 +1,8 @@
-* {
-  box-sizing: border-box;
-}
+@import url("../main.css");
 
 body {
   max-width: 420px;
-  min-height: 100vh;
-  margin: 0 auto;
-  padding: 72px 24px;
-  background:
-    radial-gradient(circle at 20% 20%, #ffffff 0, transparent 28%),
-    radial-gradient(circle at 80% 10%, #ffe0e0 0, transparent 30%),
-    linear-gradient(135deg, #fff1f1, #f8f8fb 48%, #ffe9e9);
-  color: #1d1d1f;
-  font-family:
-    "SF Pro Text",
-    "SF Pro Display",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    sans-serif;
+  margin-inline: auto;
 }
 
 h1:first-of-type {
@@ -28,44 +12,41 @@ h1:first-of-type {
 }
 
 span {
-  color: #f08080;
+  color: var(--color-accent);
 }
 
 label {
   display: block;
   margin: 18px 0 8px;
-  color: #424245;
+  color: var(--color-muted);
   font-weight: 600;
 }
 
 input {
-  color: rgba(240, 128, 128, 0.92);
   width: 100%;
   padding: 14px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.45);
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.7),
-    0 14px 30px rgba(29, 29, 31, 0.08);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  background: var(--glass-field);
+  box-shadow: var(--glass-shadow);
   backdrop-filter: blur(18px);
   font: inherit;
 }
 
-input[type="button"] {
+#btn_calcula {
   margin-top: 22px;
-  background: rgba(240, 128, 128, 0.82);
-  color: #ffffff;
+  background: rgba(var(--color-accent-rgb), 0.82);
+  color: var(--color-surface);
   cursor: pointer;
 }
 
-input[type="button"]:hover {
-  background: rgba(240, 128, 128, 0.92);
+#btn_calcula:hover {
+  background: rgba(var(--color-accent-rgb), 0.92);
 }
 
 #titulo_imc {
   margin: 32px 0 10px;
-  color: #424245;
+  color: var(--color-muted);
   font-size: 24px;
 }
 
@@ -73,12 +54,10 @@ input[type="button"]:hover {
   min-height: 54px;
   margin: 0;
   padding: 14px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--glass-border);
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.5);
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.8),
-    0 18px 40px rgba(29, 29, 31, 0.1);
-  backdrop-filter: blur(20px);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(18px);
   font-size: 24px;
 }
